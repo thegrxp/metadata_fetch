@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:metadata_fetch/metadata_fetch.dart';
 import 'package:html/parser.dart' as html;
 import 'package:http/http.dart' as http;
@@ -146,32 +148,32 @@ void main() {
 
   group('extract()', () {
     test('First Test', () async {
-      var data = await extract('https://flutter.dev/');
+      var data = await (extract('https://flutter.dev/'));
       print(data);
-      print(data.description);
-      expect(data.toMap().isEmpty, false);
+      print(data?.description);
+      expect(data?.toMap().isEmpty, false);
     });
 
     test('FB Test', () async {
-      var data = await extract('https://facebook.com/');
-      expect(data.toMap().isEmpty, false);
+      var data = await (extract('https://facebook.com/'));
+      expect(data?.toMap().isEmpty, false);
     });
 
     test('Youtube Test', () async {
-      Metadata data = await extract('https://www.youtube.com/watch?v=0jz0GAFNNIo');
-      expect(data.title, 'Drake - When To Say When & Chicago Freestyle');
-      expect(data.image, 'https://i.ytimg.com/vi/0jz0GAFNNIo/maxresdefault.jpg');
+      Metadata? data = await (extract('https://www.youtube.com/watch?v=0jz0GAFNNIo'));
+      expect(data?.title, 'Drake - When To Say When & Chicago Freestyle');
+      expect(data?.image, 'https://i.ytimg.com/vi/0jz0GAFNNIo/maxresdefault.jpg');
     });
 
     test('Unicode Test', () async {
-      var data = await extract('https://www.jpf.go.jp/');
-      expect(data.toMap().isEmpty, false);
+      var data = await (extract('https://www.jpf.go.jp/'));
+      expect(data?.toMap().isEmpty, false);
     });
 
     test('Gooogle Test', () async {
-      var data = await extract('https://google.ca');
-      expect(data.toMap().isEmpty, false);
-      expect(data.title, 'google');
+      var data = await (extract('https://google.ca'));
+      expect(data?.toMap().isEmpty, false);
+      expect(data?.title, 'google');
     });
 
     test('Invalid Url Test', () async {
