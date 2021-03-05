@@ -69,9 +69,9 @@
     },
     {
       "name": "csslib",
-      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/csslib-0.17.0",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/csslib-0.16.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.2"
     },
     {
       "name": "file",
@@ -87,9 +87,9 @@
     },
     {
       "name": "html",
-      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/html-0.15.0",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/html-0.14.0+4",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.3"
     },
     {
       "name": "http",
@@ -314,7 +314,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-03-04T07:21:45.741761Z",
+  "generated": "2021-03-05T07:55:46.943469Z",
   "generator": "pub",
   "generatorVersion": "2.12.0"
 }
