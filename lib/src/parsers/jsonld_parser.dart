@@ -33,7 +33,7 @@ class JsonLdParser with BaseMetadataParser {
     if (data is List) {
       return data.first['name'];
     } else if (data is Map) {
-      return data?.get('name') ?? data.get('headline');
+      return data.get('name');
     }
     return null;
   }
@@ -45,7 +45,7 @@ class JsonLdParser with BaseMetadataParser {
     if (data is List) {
       return data.first['description'] ?? data.first['headline'];
     } else if (data is Map) {
-      return data?.get('description') ?? data.get('headline');
+      return data.get('description');
     }
     return null;
   }
