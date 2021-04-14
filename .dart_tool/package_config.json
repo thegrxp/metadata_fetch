@@ -93,7 +93,7 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/http-0.13.0",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/http-0.13.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -147,9 +147,9 @@
     },
     {
       "name": "node_preamble",
-      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/node_preamble-1.4.13",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/node_preamble-2.0.0",
       "packageUri": "lib/",
-      "languageVersion": "1.24"
+      "languageVersion": "2.12"
     },
     {
       "name": "package_config",
@@ -243,7 +243,7 @@
     },
     {
       "name": "string_validator",
-      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/string_validator-0.2.0-nullsafety.0",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/string_validator-0.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -255,19 +255,19 @@
     },
     {
       "name": "test",
-      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/test-1.16.5",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/test-1.16.8",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/test_api-0.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "test_core",
-      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/test_core-0.3.15",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dartlang.org/test_core-0.3.19",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -314,7 +314,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-03-17T06:14:02.213628Z",
+  "generated": "2021-04-14T06:01:07.100955Z",
   "generator": "pub",
-  "generatorVersion": "2.12.1"
+  "generatorVersion": "2.12.2"
 }
